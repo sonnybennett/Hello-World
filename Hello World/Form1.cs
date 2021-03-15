@@ -26,6 +26,11 @@ namespace Hello_World
         {
             MessageBox.Show("Goodbye" + txtBxName.Text);
             MessageBox.Show("Welcome to " + txtBxName.Text + "Sonnys Program");
+            MessageBox.Show("hello " txtBxName.Text + " and " + txtBxName2.text);
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
