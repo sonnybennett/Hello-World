@@ -25,7 +25,7 @@ namespace Hello_World
         private void Button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Goodbye" + txtBxName.Text);
-            MessageBox.Show("Welcome to Sonnys program" + txtBxName.Text);
+            MessageBox.Show("Welcome to " + txtBxName.Text + "Sonnys Program");
         }
     }
 }
